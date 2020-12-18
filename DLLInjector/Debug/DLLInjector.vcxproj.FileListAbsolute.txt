@@ -1,0 +1,2 @@
+C:\Users\jonas\Documents\DLLInjector\Debug\DLLInjector.exe
+C:\Users\jonas\Documents\DLLInjector\Debug\DLLInjector.pdb
