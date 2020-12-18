@@ -6,8 +6,6 @@
 #include <TlHelp32.h>
 using namespace std;
 
-HANDLE getProcessMainThread(HANDLE hProcess);
-
 int main()
 {
     LPSTARTUPINFOA startupInfo = new STARTUPINFOA();
