@@ -31,7 +31,7 @@ int main()
         PTHREAD_START_ROUTINE pLoadLibrary = (PTHREAD_START_ROUTINE)GetProcAddress(GetModuleHandle(TEXT("Kernel32")), "LoadLibraryW");
         HANDLE hInjectedThread = CreateRemoteThread(processInfo->hProcess, NULL, 0, pLoadLibrary, pDllPath, 0, NULL);
         if (hInjectedThread) {
-            cout << "Injection succedded." << endl;
+            cout << "Injection succeeded." << endl;
         }
         else {
             cout << "Injection failed." << endl;
